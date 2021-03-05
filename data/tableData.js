@@ -24,7 +24,20 @@ const reservations = [
         numberOfGuests: 10,
         time24hr: 1400,
         waiting: true,
+    },
+    {
+        guestName:"Adam Driver",
+        numberOfGuests: 4,
+        time24hr: 1400,
+        waiting: true,
+    },
+    {
+        guestName:"Rhianna Fenty",
+        numberOfGuests: 8,
+        time24hr: 1800,
+        waiting: true,
     }
+
 ];
 
 const availability = () => {
