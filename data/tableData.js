@@ -37,7 +37,6 @@ const reservations = [
         time24hr: 1800,
         waiting: true,
     }
-
 ];
 
 const availability = () => {
@@ -48,3 +47,5 @@ const availability = () => {
         console.log("We are open for reservations")
     } 
 }
+
+module.exports = reservations;
