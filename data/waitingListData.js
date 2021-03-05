@@ -32,3 +32,5 @@ const takingTables = () => {
     }
     else{console.log(`There are ${waitingList.length} tables ahead of you.`)}
 }
+
+module.exports = waitingList;
