@@ -62,17 +62,33 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="tables api">Table API</a>
+                    <a href="waitlist"> Waitlist</a>
+                </p>
+            </div>
+            <button type="submit" class="btn btn-primary submit">Submit</button>
+        </footer>
     </div>
+    <script type="text/javascript">
+        $(".submit").on("click", function (event) {
+            event.preventDefault();
+
+            var newReservation = {
+                Name: $("name").val(),
+                Phone: $("phone").val(),
+                Email: $("email").val(),
+                ID: $("id").val()
+            }
+        })
+
+
+
+
+
+    </script>
 
 </body>
 
