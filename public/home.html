@@ -9,22 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron">
-          <h1 class='text-center'>Hot Restaurant</h1>
+        <div class="jumbotron text-center">
+          <h1>Hot Restaurant</h1>
           <hr />
-          <h3 class="text-center">The greatest restaurant in the galaxy for hotness!</h3>
+          <h3>The greatest restaurant in the galaxy for hotness!</h3>
           <br>
-          <a href="/api/table">
+          <a href="/table">
             <button class="btn btn-primary btn-lg center">
-              <span class="fa fa-plus"></span> View Tables
+              <span class="fa fa-list-alt"></span> View Tables
             </button>
           </a>
           <a href="/reserve">
             <button class="btn btn-success btn-lg center">
-              <span class="fa fa-eye"></span> Make Reservation
+              <span class="fa fa-list-alt"></span> Make Reservation
             </button>
           </a>
         </div>
+    </div>
+    <div class="row">
+        <div class="container mt-4">
+        <p>Control Panel</p>
+        
+        <p><a href="/api/table">API Table Link | </a><a href="/api/waitlist">API Wait List</a></p>
     </div>
     
 </body>
