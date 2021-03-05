@@ -39,13 +39,5 @@ const reservations = [
     }
 ];
 
-const availability = () => {
-    if (reservations.length >= 12){
-        console.log("We are fully booked")
-    }
-    else {
-        console.log("We are open for reservations")
-    } 
-}
 
 module.exports = reservations;

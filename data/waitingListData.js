@@ -26,11 +26,6 @@ const waitingList = [
     },
 ];
 
-const takingTables = () => {
-    if(waitingList.length > 25){
-        console.log('we are no longer taking names on the waiting list')
-    }
-    else{console.log(`There are ${waitingList.length} tables ahead of you.`)}
-}
+
 
 module.exports = waitingList;
